@@ -1,0 +1,128 @@
+:root {
+  --azul: rgb(82, 156, 241);
+  --verde: rgb(38, 183, 88);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 140px;
+  padding: 10px;
+  background-color: black;
+}
+.header .logo {
+  width: 30%;
+  height: 10vw;
+}
+.header .button {
+  background-color: transparent;
+  width: 10%;
+  height: 10vw;
+  display: flex;
+}
+.presentacion {
+  color: white;
+  background-color: var(--azul);
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.presentacion h1 {
+  font-weight: bold;
+  margin-top: 50px;
+  line-height: 30px;
+  font-size: 24px;
+}
+.presentacion h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+.presentacion .button-ver-planes {
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: var(--verde);
+  border-color: transparent;
+  height: 40px;
+  width: 290px;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.presentacion p {
+  font-size: 11px;
+  margin-top: 15px;
+  line-height: 15px;
+  margin-bottom: 15px;
+}
+.descripcion {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+.descripcion .title {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.box img {
+  height: 80px;
+  width: 80px;
+  margin-right: 18px;
+  vertical-align: middle;
+}
+.box-text {
+  padding-top: 8px;
+}
+.box-text h4 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.box-text p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+.footer {
+  background-color: black;
+  color: #919496;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer p {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 20px;
+  display: inline-block;
+  padding: 15px;
+}
+.copy-right .spain {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-image: url(./assets/es.svg);
+  background-size: cover;
+  background-position: center;
+}
+.legal {
+  margin-top: 52px;
+  text-align: left;
+}

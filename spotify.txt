@@ -1,0 +1,36 @@
+Tenemos que identificar qué grupos de elementos se comportan como un único elemento. Sabremos identificar si están visualmente juntos y si se comportan de la misma manera en diseño móvil, tablet y desktop. Por ejemplo, si varios elementos se centran todos a la vez al pasar de móvil a desktop nos dan una pista de que puede ser un grupo de elementos. Para esto nos viene muy bien coger rotu y papel y pintar la página.
+
+Una vez identificados estos grupos de elementos que se comportan como uno solo tenemos que agruparlos en el código. Para ello los envolvemos en un contenedor. Si ya estaban agrupados en un contenedor con carga semántica por ejemplo <header />, no hace falta que los volvamos a agrupar.
+
+A continuación le tenemos que añadir una clase css a cada uno de estos contenedores. Y vamos a dar los siguientes estilos a cada clase: .my-container { border: solid 3px red; background: blue} (debemos sustituir my-container por el nombre de la clase que le hayamos dado). Con esto conseguiremos identificar visualmente los contenedores. Es decir es simplemente para saber el espacio que ocupa cada contenedor en nuestra maqueta. Una vez hayamos terminado de maquetar todos los contenedores, podremos borrar los estilos de borde y fondo que habíamos puesto para visualizar fácilmente los contenedores. Y podremos empezar a maquetar fino fino y al detalle cada elemento de la página, centrándonos en detalles como colores, tamaños de fuente, márgenes, etc...
+
+Por último nos vamos a centrar en la cabecera y comenzar a aplicar estilos que correspondan a la imagen y al menú indicado en el diseño. El fondo de la cabecera siempre va a ser negro. La letra blanca.
+
+menu adaptable dispositivo movil:
+    http://www.falconmasters.com/web-design/menu-desplegable-adaptable-dispositivos-moviles/
+    https://www.youtube.com/watch?v=f7QujqArvIw
+
+    <header>
+		<div class="menu-bar">
+			<a href="#" class="menu-button">
+            img=..............</a>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#">Premium</a></li>
+				<li><a href="#">Ayuda</a></li>
+				<li><a href="#">Descargar</a></li>
+				<li><a href="#">Registrarse</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+********** FOOTER *********
+DIV........que contiene todo el FOOTER
+    div.....para las cositas de la izq
+    div.....para las cositas de la derecha
+        p con su span que seria la img
+        otro p
