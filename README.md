@@ -1,2 +1,2 @@
 # promo-Q-modulo-1-pair-14-spotify
-Spotify Page
+clonamos IU de Spotyfy con Responsive design
